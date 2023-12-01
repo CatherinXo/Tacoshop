@@ -1,0 +1,118 @@
+body, h1, h2, h3, p, ul, figure, table, dl, dt, dd {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff; /* White background */
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #ff5a5f; /* Reddish-pink */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #000000; /* Lighter pink */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    background-color: #f48c06; /* Light pink */
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #000000; /* Slightly darker pink on hover */
+}
+
+h2 {
+    color: #333;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    background-color: #fff; /* White table cells */
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+tfoot td {
+    font-weight: bold;
+}
+
+a[href="#"] {
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    background-color: #f48c06; /* Reddish-pink */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+a[href="#"]:hover {
+    background-color: #000000; /* Slightly darker pink on hover */
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff5a5f; /* Reddish-pink */
+    color: #fff;
+}
